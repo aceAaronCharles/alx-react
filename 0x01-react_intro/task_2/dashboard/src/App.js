@@ -1,35 +1,27 @@
-// task_1/dashboard/src/App.js
-import React from 'react';
-import './App.css';
-import holbertonLogo from './holberton-logo.png';
+import logo from './holberton-logo.jpg';
 import { getFullYear, getFooterCopy } from './utils';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={holbertonLogo} alt="Holberton Logo" className="App-logo" />
+      <div className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
         <h1>School dashboard</h1>
-      </header>
-      <div className="App-body">
-        <p>Login to access the full dashboard</p>
-        <form>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" />
-          <br />
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" />
-          <br />
-          <button type="button">OK</button>
-        </form>
       </div>
-      <footer className="App-footer">
-        <p>{getFooterCopy(false)}</p>
-        <p>{`Copyright ${getFullYear()} - ${getFooterCopy(true)}`}</p>
-      </footer>
+      <div className='App-body'>
+				<p>Login to access the full dashboard</p>
+        <label htmlFor="email">Email :</label>
+        <input name="email" type="email" id="email"></input>
+        <label htmlFor="password">Password :</label>
+        <input name="password" type="password" id="password"></input>
+        <button>OK</button>
+			</div>
+			<div className='App-footer'>
+				<p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
+			</div>
     </div>
   );
 }
 
 export default App;
-
