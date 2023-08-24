@@ -17,8 +17,4 @@ body {
     height: 200px;
     background: url('../assets/holberton-logo.jpg') no-repeat;
     background-size: cover;
-  }
-  
-  #text {
-    margin: 1rem;
   }  
