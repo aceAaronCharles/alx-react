@@ -4,32 +4,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode production",
     "build": "webpack"
   },
-  "keywords": [
-    "asset_compilation",
-    "entry_points",
-    "javascript",
-    "loaders",
-    "output",
-    "webpack_plugins"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^6.8.1",
+    "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^8.1.0",
-    "style-loader": "^3.3.3",
-    "webpack": "^5.88.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.1",
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
-    "html-webpack-plugin": "^5.5.3",
     "jquery": "^3.7.0",
-    "lodash": "^4.17.21",
-    "url-loader": "^4.1.1"
+    "lodash": "^4.17.21"
   },
   "description": ""
 }
