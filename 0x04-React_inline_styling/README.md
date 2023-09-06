@@ -1,0 +1,1 @@
+React Inline styling by Aaron Charles
